@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="2" tests="2" time="0.704">
+<testcase classname="Title of your feature" name="Log in to Facebook with Examples" time="0.159">
+<skipped><![CDATA[Given You are on facebook page..............................................undefined
+When you enter username '2310strygwyr@gmail.com'............................undefined
+And uou enter password 'strygwyr'...........................................undefined
+Then user should be at homepage.............................................undefined
+]]></skipped>
+</testcase>
+<testcase classname="Title of your feature" name="Log in to Facebook with Examples 2" time="0.004">
+<skipped><![CDATA[Given You are on facebook page..............................................undefined
+When you enter username '2310strygwyr@gmail.com'............................undefined
+And uou enter password 'strygwyr'...........................................undefined
+Then user should be at homepage.............................................undefined
+]]></skipped>
+</testcase>
+</testsuite>

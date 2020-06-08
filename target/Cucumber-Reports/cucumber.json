@@ -1,0 +1,117 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-08T11:16:46.798Z",
+        "line": 39,
+        "name": "Log in to Facebook with Examples",
+        "description": "",
+        "id": "title-of-your-feature;log-in-to-facebook-with-examples;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "You are on facebook page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "you enter username \u00272310strygwyr@gmail.com\u0027",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "uou enter password \u0027strygwyr\u0027",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "user should be at homepage",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-08T11:16:46.996Z",
+        "line": 40,
+        "name": "Log in to Facebook with Examples",
+        "description": "",
+        "id": "title-of-your-feature;log-in-to-facebook-with-examples;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 32,
+            "name": "You are on facebook page",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 33,
+            "name": "you enter username \u00272310strygwyr@gmail.com\u0027",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 34,
+            "name": "uou enter password \u0027strygwyr\u0027",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 35,
+            "name": "user should be at homepage",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@main"
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "  I want to use this template for my feature file",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Cucumber/Demo/Features/Mercury.feature",
+    "tags": []
+  }
+]

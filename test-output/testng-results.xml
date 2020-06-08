@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="710" started-at="2020-06-08T16:43:19 IST" finished-at="2020-06-08T16:43:20 IST">
+    <groups>
+      <group name="cucumber">
+        <method signature="RunCucumberTest.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.Demo.RunCucumberTest@6ee52dcd]" name="runScenario" class="Cucumber.Demo.RunCucumberTest"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="710" started-at="2020-06-08T16:43:19 IST" finished-at="2020-06-08T16:43:20 IST">
+      <class name="Cucumber.Demo.RunCucumberTest">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:Cucumber.Demo.RunCucumberTest@6ee52dcd]" name="beforeSuite" is-config="true" duration-ms="20" started-at="2020-06-08T16:43:19 IST" finished-at="2020-06-08T16:43:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Cucumber.Demo.RunCucumberTest@6ee52dcd]" name="setUpClass" is-config="true" duration-ms="387" started-at="2020-06-08T16:43:19 IST" finished-at="2020-06-08T16:43:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.Demo.RunCucumberTest@6ee52dcd]" name="runScenario" duration-ms="250" started-at="2020-06-08T16:43:20 IST" description="Runs Cucumber Scenarios" data-provider="features" finished-at="2020-06-08T16:43:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Log in to Facebook"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.Demo.RunCucumberTest@6ee52dcd]" name="runScenario" duration-ms="8" started-at="2020-06-08T16:43:20 IST" description="Runs Cucumber Scenarios" data-provider="features" finished-at="2020-06-08T16:43:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Log in to Facebook with Examples"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:Cucumber.Demo.RunCucumberTest@6ee52dcd]" name="runScenario" duration-ms="9" started-at="2020-06-08T16:43:20 IST" description="Runs Cucumber Scenarios" data-provider="features" finished-at="2020-06-08T16:43:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Log in to Facebook with Examples"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Title of your feature"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Cucumber.Demo.RunCucumberTest@6ee52dcd]" name="tearDownClass" is-config="true" duration-ms="0" started-at="2020-06-08T16:43:20 IST" finished-at="2020-06-08T16:43:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:Cucumber.Demo.RunCucumberTest@6ee52dcd]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-06-08T16:43:20 IST" finished-at="2020-06-08T16:43:20 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- Cucumber.Demo.RunCucumberTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
