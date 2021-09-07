@@ -3,48 +3,71 @@
     "line": 20,
     "elements": [
       {
-        "start_timestamp": "2020-06-08T11:16:46.798Z",
-        "line": 39,
+        "start_timestamp": "2021-09-07T05:19:12.998Z",
+        "line": 38,
         "name": "Log in to Facebook with Examples",
         "description": "",
-        "id": "title-of-your-feature;log-in-to-facebook-with-examples;;2",
+        "id": "facebook-login;log-in-to-facebook-with-examples;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 4000000,
+              "status": "passed"
             },
-            "line": 32,
+            "line": 31,
             "name": "You are on facebook page",
-            "match": {},
+            "match": {
+              "location": "Cucumber.Demo.Stepdefs.you_are_on_facebook_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1000000,
+              "status": "passed"
             },
-            "line": 33,
+            "line": 32,
             "name": "you enter username \u00272310strygwyr@gmail.com\u0027",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u00272310strygwyr@gmail.com\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "Cucumber.Demo.Stepdefs.you_enter_username(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "passed"
             },
-            "line": 34,
-            "name": "uou enter password \u0027strygwyr\u0027",
-            "match": {},
+            "line": 33,
+            "name": "you enter password \u002712345667\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002712345667\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "Cucumber.Demo.Stepdefs.you_enter_password(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1000000,
+              "status": "passed"
             },
-            "line": 35,
+            "line": 34,
             "name": "user should be at homepage",
-            "match": {},
+            "match": {
+              "location": "Cucumber.Demo.Stepdefs.user_should_be_at_homepage()"
+            },
             "keyword": "Then "
           }
         ],
@@ -55,48 +78,70 @@
         ]
       },
       {
-        "start_timestamp": "2020-06-08T11:16:46.996Z",
-        "line": 40,
+        "start_timestamp": "2021-09-07T05:19:13.042Z",
+        "line": 39,
         "name": "Log in to Facebook with Examples",
         "description": "",
-        "id": "title-of-your-feature;log-in-to-facebook-with-examples;;3",
+        "id": "facebook-login;log-in-to-facebook-with-examples;;3",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "status": "passed"
             },
-            "line": 32,
+            "line": 31,
             "name": "You are on facebook page",
-            "match": {},
+            "match": {
+              "location": "Cucumber.Demo.Stepdefs.you_are_on_facebook_page()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "status": "passed"
             },
-            "line": 33,
+            "line": 32,
             "name": "you enter username \u00272310strygwyr@gmail.com\u0027",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u00272310strygwyr@gmail.com\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "Cucumber.Demo.Stepdefs.you_enter_username(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1000000,
+              "status": "passed"
             },
-            "line": 34,
-            "name": "uou enter password \u0027strygwyr\u0027",
-            "match": {},
+            "line": 33,
+            "name": "you enter password \u002712345667\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u002712345667\u0027",
+                  "offset": 19
+                }
+              ],
+              "location": "Cucumber.Demo.Stepdefs.you_enter_password(java.lang.String)"
+            },
             "keyword": "And "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1000000,
+              "status": "passed"
             },
-            "line": 35,
+            "line": 34,
             "name": "user should be at homepage",
-            "match": {},
+            "match": {
+              "location": "Cucumber.Demo.Stepdefs.user_should_be_at_homepage()"
+            },
             "keyword": "Then "
           }
         ],
@@ -107,11 +152,11 @@
         ]
       }
     ],
-    "name": "Title of your feature",
-    "description": "  I want to use this template for my feature file",
-    "id": "title-of-your-feature",
+    "name": "FaceBook Login",
+    "description": "  We will be logging into facebook",
+    "id": "facebook-login",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Cucumber/Demo/Features/Mercury.feature",
+    "uri": "classpath:features/Mercury.feature",
     "tags": []
   }
 ]

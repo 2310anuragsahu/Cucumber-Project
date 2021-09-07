@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="2" tests="2" time="0.704">
-<testcase classname="Title of your feature" name="Log in to Facebook with Examples" time="0.159">
-<skipped><![CDATA[Given You are on facebook page..............................................undefined
-When you enter username '2310strygwyr@gmail.com'............................undefined
-And uou enter password 'strygwyr'...........................................undefined
-Then user should be at homepage.............................................undefined
-]]></skipped>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.33">
+<testcase classname="FaceBook Login" name="Log in to Facebook with Examples" time="0.027">
+<system-out><![CDATA[Given You are on facebook page..............................................passed
+When you enter username '2310strygwyr@gmail.com'............................passed
+And you enter password '12345667'...........................................passed
+Then user should be at homepage.............................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Title of your feature" name="Log in to Facebook with Examples 2" time="0.004">
-<skipped><![CDATA[Given You are on facebook page..............................................undefined
-When you enter username '2310strygwyr@gmail.com'............................undefined
-And uou enter password 'strygwyr'...........................................undefined
-Then user should be at homepage.............................................undefined
-]]></skipped>
+<testcase classname="FaceBook Login" name="Log in to Facebook with Examples 2" time="0.006">
+<system-out><![CDATA[Given You are on facebook page..............................................passed
+When you enter username '2310strygwyr@gmail.com'............................passed
+And you enter password '12345667'...........................................passed
+Then user should be at homepage.............................................passed
+]]></system-out>
 </testcase>
 </testsuite>
