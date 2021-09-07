@@ -3,7 +3,7 @@
     "line": 20,
     "elements": [
       {
-        "start_timestamp": "2021-09-07T05:19:12.998Z",
+        "start_timestamp": "2021-09-07T08:56:08.043Z",
         "line": 38,
         "name": "Log in to Facebook with Examples",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4000000,
+              "duration": 3000000,
               "status": "passed"
             },
             "line": 31,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 9000000,
               "status": "passed"
             },
             "line": 32,
@@ -43,6 +43,7 @@
           },
           {
             "result": {
+              "duration": 1000000,
               "status": "passed"
             },
             "line": 33,
@@ -60,7 +61,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 34,
@@ -78,7 +78,7 @@
         ]
       },
       {
-        "start_timestamp": "2021-09-07T05:19:13.042Z",
+        "start_timestamp": "2021-09-07T08:56:08.084Z",
         "line": 39,
         "name": "Log in to Facebook with Examples",
         "description": "",
@@ -116,7 +116,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 33,

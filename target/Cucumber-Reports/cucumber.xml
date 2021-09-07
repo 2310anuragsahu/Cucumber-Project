@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.33">
-<testcase classname="FaceBook Login" name="Log in to Facebook with Examples" time="0.027">
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="0.367">
+<testcase classname="FaceBook Login" name="Log in to Facebook with Examples" time="0.025">
 <system-out><![CDATA[Given You are on facebook page..............................................passed
 When you enter username '2310strygwyr@gmail.com'............................passed
 And you enter password '12345667'...........................................passed

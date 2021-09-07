@@ -1,5 +1,3 @@
-#Author: your.email@your.domain.com
-#Keywords Summary :
 #Feature: List of scenarios.
 #Scenario: Business rule through list of steps with arguments.
 #Given: Some precondition step
@@ -15,7 +13,6 @@
 #<> (placeholder)
 #""
 ## (Comments)
-#Sample Feature Definition Template
 
 Feature: FaceBook Login 
   We will be logging into facebook

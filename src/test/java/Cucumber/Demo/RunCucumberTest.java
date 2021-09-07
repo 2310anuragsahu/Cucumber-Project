@@ -15,10 +15,10 @@ import io.cucumber.testng.FeatureWrapper;
 import io.cucumber.testng.PickleWrapper;
 import io.cucumber.testng.TestNGCucumberRunner;
 
-@RunWith(Cucumber.class)
+//@RunWith(Cucumber.class)   //for JUnit Testing only
 @CucumberOptions(
 		features = {"classpath:features"}, 
-		glue = { "Cucumber.Demo" }, 
+		glue = { "Cucumber.Demo" },
 		plugin = { "pretty", "html:target/Cucumber-Reports/report.html", 
 				"json:target/Cucumber-Reports/cucumber.json",
 				"junit:target/Cucumber-Reports/cucumber.xml" },
